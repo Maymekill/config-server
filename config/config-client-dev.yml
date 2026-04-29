@@ -1,1 +1,17 @@
+spring:
+  application:
+    name: config-client
+  profiles:
+    active: dev
 
+server:
+  port: 8081
+
+message:
+  greeting: "Hello from Dev Environment"
+  version: "1.0.0-dev"
+  
+database:
+  host: "localhost"
+  port: 3306
+  name: "test_db"
