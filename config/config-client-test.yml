@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-client
+  profiles:
+    active: test
+
+server:
+  port: 8082
+
+message:
+  greeting: "Hello from Test Environment"
+  version: "1.0.0-test"
+  
+database:
+  host: "test.db.com"
+  port: 3306
+  name: "test_db"
